@@ -1,0 +1,367 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    background-image: url(../img/background.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+
+.topo {
+    text-align: center;
+}
+
+.topo img {
+    width: 450px;
+    max-width: 100%;
+}
+
+.container-secundario {
+    width: 690px;
+    max-width: 85%;
+}
+
+
+.container-secundario-body {
+    background-color: #edeae5;
+    border: solid 2px #114eaf;
+    border-radius: 0px 0px 20px 20px;
+    padding: 30px;
+    margin-bottom: 150px;
+}
+
+.container-secundario-topo {
+    background-color: #114eaf;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.container-secundario-topo h1 {
+    font-size: 32px;
+    width: 75%;
+    margin-bottom: -7px;
+}
+
+H1.headline-1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+H2.headline-2 {
+    color: #1250b2;
+    font-size: 16px;
+    text-align: center;
+}
+
+.valor {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.valor .form-control {
+    border: solid #353535 1px;
+    text-align: center;
+    height: 50px;
+    color: black;
+    font-size: 25px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+}
+
+.card-select {
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.row-card-select {
+    display: flex;
+    align-items: end;
+}
+
+.card-select-azul {
+    width: 25%;
+    height: 50px;
+    background-color: #092387;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.card-select-azul img {
+    width: 45%;
+}
+
+.card-select-vermelho {
+    width: 75%;
+    height: 65px;
+    background-color: #d42d04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-select-vermelho h1 {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.card-select-body {
+    height: 250px;
+    padding: 10px;
+    background-color: #f5eede;
+    border: solid #353535 2px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-select-body h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.card-select-body h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.checkbuttonlabel {
+    margin-top: 20px;
+    background-color: #f9f3e7;
+    color: #459b02;
+    font-size: 18px;
+    border: solid 2px #459b02;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.checkformoption {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #353535;
+}
+
+h2.deposite {
+    margin-top: 50px;
+    color: red;
+}
+
+.cta {
+    font-family: 'Rethink Sans', sans-serif !important;
+    font-weight: 800;
+    font-style: italic;
+}
+
+button.cta {
+    font-family: 'Rethink Sans', sans-serif !important;
+    text-align: center;
+    margin-top: 0px;
+    background-color: #459b02;
+    border: solid 2px #39671c;
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+    color: white;
+    font-size: 25px;
+    animation: pulse 1s infinite;
+}
+
+button.cta img {
+    width: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.07);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.cta-two {
+    text-align: center;
+}
+
+h1.termos {
+    margin-top: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
+h1.termos a {
+    text-decoration: none;
+    color: #114eaf;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+    .container-secundario {
+        width: 87%;
+        max-width: 87%;
+    }
+
+    .container-secundario-body {
+        padding: 20px;
+    }
+
+    .container-secundario-topo {
+        padding: 25px;
+    }
+
+    .container-secundario-topo h1 {
+        width: 100%;
+        font-size: 6vw;
+        margin-bottom: -5px;
+    }
+
+    H1.headline-1 {
+        font-size: 4.2vw;
+    }
+
+    H2.headline-2 {
+        color: #1250b2;
+        font-size: 3.8vw;
+        text-align: center;
+    }
+
+    .valor {
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .valor .form-control {
+        height: 50px;
+        font-size: 6.8vw;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        display: flex;
+    }
+
+    .swiper-slide {
+        width: 125px !important;
+        margin-right: 10px !important;
+    }
+
+    .card-select {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .card-select-azul img {
+        width: 50%;
+    }
+
+    .card-select-azul {
+        width: 40%;
+        padding: 10px;
+    }
+
+    .card-select-vermelho {
+        width: 60%;
+        height: 70px;
+    }
+
+    .card-select-vermelho h1 {
+        font-size: 3vw;
+        margin-bottom: -5px;
+    }
+
+    .card-select-body {
+        height: 180px;
+        padding: 5px;
+    }
+
+    .card-select-body h1 {
+        font-size: 8vw;
+    }
+
+    .card-select-body h2 {
+        font-size: 3vw;
+    }
+
+    .checkbuttonlabel {
+        margin-top: 9px;
+        font-size: 3vw;
+        border: solid 1px;
+        border-radius: 5px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .checkformoption {
+        margin-top: 30px;
+    }
+
+    button.cta {
+        width: 90%;
+        margin-top: 10px;
+        padding: 20px 20px 20px 20px;
+        font-size: 5.2vw;
+    }
+
+    button.cta img {
+        width: 30px;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+
+    .cta-two {
+        text-align: center;
+    }
+
+    h1.termos {
+        margin-top: 35px;
+        font-size: 3vw;
+    }
+
+
+}
